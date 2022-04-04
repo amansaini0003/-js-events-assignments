@@ -1,0 +1,9 @@
+.nav-bar {
+  background-color: blue;
+}
+.list-item {
+  display: inline;
+  list-style: none;
+  padding: 5px;
+  background-color: yellow;
+}
