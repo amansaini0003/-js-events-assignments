@@ -1,9 +1,27 @@
-.nav-bar {
-  background-color: blue;
+html {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.3rem;
+}
+h1 {
+  font-size: 3vw;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .list-item {
-  display: inline;
   list-style: none;
-  padding: 5px;
-  background-color: yellow;
+  padding: 25px;
+  margin: 30px;
+  background-color: white;
+  border: 2px solid red;
+}
+.box {
+  border: 1px solid black;
+  height: 100px;
+  width: 100px;
+}
+#cnt-btn {
+  padding: 10px;
 }
